@@ -9,6 +9,9 @@ package holamundoconcapas.view;
  *
  * @author 2dam
  */
-public class ViewImplementation {
-    
+public class ViewImplementation implements View {
+    @Override
+    public void showGreeting (String greeting){
+        System.out.println(greeting);
+    }
 }

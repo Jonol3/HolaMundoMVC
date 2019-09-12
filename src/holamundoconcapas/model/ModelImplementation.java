@@ -9,6 +9,9 @@ package holamundoconcapas.model;
  *
  * @author 2dam
  */
-public class ModelImplementation {
-    
+public class ModelImplementation implements Model {
+    @Override
+    public String getGreeting(){
+        return "Hello, World!";
+    }
 }

@@ -10,5 +10,8 @@ package holamundoconcapas.model;
  * @author 2dam
  */
 public class ModelFactory {
-    
+    public static Model getModel (){
+        Model model = new ModelImplementation();
+        return model;
+    }
 }
