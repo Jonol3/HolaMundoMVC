@@ -11,7 +11,7 @@ package holamundoconcapas.view;
  */
 public class ViewFactory {
     public static View getView (){
-        View view = new ViewImplementation();
+        View view = new SwingViewImplementation();
         return view;
     }
 }
