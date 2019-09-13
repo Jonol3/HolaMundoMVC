@@ -5,13 +5,17 @@
  */
 package holamundoconcapas.model;
 
+
+import java.util.ResourceBundle;
+
 /**
  *
  * @author 2dam
  */
-public class ModelFactory {
-    public static Model getModel (){
-        Model model = new FileModelImplementation();
-        return model;
+public class FileModelImplementation implements Model {
+    @Override
+    public String getGreeting(){
+        return ResourceBundle.getBundle("holamundoconcapas.model.greeting")
+                .getString("greeting");
     }
 }
