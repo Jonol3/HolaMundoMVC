@@ -13,7 +13,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
+ * Test of the ModelImplementation.
  * @author 2dam
  */
 public class ModelImplementationTest {

@@ -13,7 +13,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
+ * Test for the ViewFactory.
  * @author 2dam
  */
 public class ViewFactoryTest {

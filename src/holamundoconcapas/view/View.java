@@ -6,7 +6,7 @@
 package holamundoconcapas.view;
 
 /**
- *
+ * The view interface.
  * @author 2dam
  */
 public interface View {

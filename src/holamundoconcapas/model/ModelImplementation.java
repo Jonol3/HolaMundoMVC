@@ -6,10 +6,14 @@
 package holamundoconcapas.model;
 
 /**
- *
+ * The implementation of the model methods.
  * @author 2dam
  */
 public class ModelImplementation implements Model {
+    /**
+     * Gets a string with a greeting.
+     * @return String with the greeting
+     */
     @Override
     public String getGreeting(){
         return "Hello, World!";

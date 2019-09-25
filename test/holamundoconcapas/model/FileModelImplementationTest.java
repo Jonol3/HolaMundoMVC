@@ -13,7 +13,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
+ * The test for the FileModelImplementation.
  * @author 2dam
  */
 public class FileModelImplementationTest {

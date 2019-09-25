@@ -6,10 +6,14 @@
 package holamundoconcapas.view;
 
 /**
- *
+ * The factory of the view.
  * @author 2dam
  */
 public class ViewFactory {
+    /**
+     * Gets a view object.
+     * @return a view object
+     */
     public static View getView (){
         View view = new JavaFXViewImplementation();
         return view;

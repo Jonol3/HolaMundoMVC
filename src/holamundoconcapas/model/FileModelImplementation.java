@@ -7,15 +7,20 @@ package holamundoconcapas.model;
 
 
 import java.util.ResourceBundle;
+import java.util.logging.Logger;
 
 /**
- *
+ * The class that gets the model values from a properties file.
  * @author 2dam
  */
 public class FileModelImplementation implements Model {
+    /**
+     * Gets a string with a greeting.
+     * @return String with the greeting
+     */
     @Override
     public String getGreeting(){
-        return ResourceBundle.getBundle("holamundoconcapas.model.greeting")
+            return ResourceBundle.getBundle("holamundoconcapas.model.greeting")
                 .getString("greeting");
     }
 }
