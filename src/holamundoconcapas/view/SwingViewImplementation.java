@@ -17,7 +17,6 @@ public class SwingViewImplementation implements View {
     @Override
     public void showGreeting (String greeting){
         JFrame frame = new JFrame();
-        JOptionPane.showMessageDialog(frame, greeting);
-        
+        JOptionPane.showMessageDialog(frame, greeting); 
     }
 }
